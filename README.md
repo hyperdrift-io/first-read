@@ -31,6 +31,13 @@ What this read could not see
 A published example, run on our own site first:
 [orchestra.hyperdrift.io/traction/first-read](https://orchestra.hyperdrift.io/traction/first-read).
 
+## Real output
+
+[GreenLife, 22 October 2026](examples/greenlife-2026-10-22.md): run in Codex
+from a folder holding nothing but the skill, the model's words unedited. It
+found a notification panel covering the first nudge on a phone, measured where
+the reading button sits, and proposed a five-person test with a success count.
+
 ## Install
 
 The skill lives in `skills/first-read/`. Copy that folder where your agent reads
