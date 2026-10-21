@@ -1,6 +1,6 @@
 # A published first read
 
-Hyperdrift ran the method on its own site before offering it to anyone else:
+Orchestra ran the method on its own site before offering it to anyone else:
 https://orchestra.hyperdrift.io/traction/first-read
 
 Read it for the shape, not the content. Notice:

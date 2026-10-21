@@ -3,9 +3,19 @@
   "name": "first-read",
   "version": "0.1.0",
   "description": "Read a live app the way a new customer meets it: one strength, one constraint, the next customer move, each with its evidence.",
-  "author": { "name": "Hyperdrift", "url": "https://hyperdrift.io" },
+  "author": {
+    "name": "Orchestra",
+    "url": "https://orchestra.hyperdrift.io"
+  },
   "homepage": "https://orchestra.hyperdrift.io/traction/first-read",
   "repository": "https://github.com/hyperdrift-io/first-read",
   "license": "MIT",
-  "keywords": ["founders", "customers", "product", "growth", "first-read", "agent-skill"]
+  "keywords": [
+    "founders",
+    "customers",
+    "product",
+    "growth",
+    "first-read",
+    "agent-skill"
+  ]
 }

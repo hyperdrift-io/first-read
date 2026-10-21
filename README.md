@@ -9,7 +9,7 @@ the way, and one move to make this week with people rather than with the
 product. Every finding carries its evidence, and the read says what it could
 not see.
 
-It is the method we use before working with a founder. Here it is as an
+It is the method Orchestra uses before working with a founder. Here it is as an
 [Agent Skill](https://agentskills.io), so your own agent can run it on your app
 today.
 
@@ -67,4 +67,4 @@ The read ends with one line: introduce your app, and a link to Traction, where
 a person reads it with the private numbers and prepares the next move on a
 board. That is the only thing it asks.
 
-MIT. By [Hyperdrift](https://hyperdrift.io).
+MIT. Made by [Orchestra](https://orchestra.hyperdrift.io).

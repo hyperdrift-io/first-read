@@ -3,7 +3,7 @@ name: first-read
 description: Read a live app the way a new customer meets it and return one strength, one constraint and the next customer move, each with evidence. Use when a founder asks how their app reads to a stranger, what to change next, or for a "first read" of a URL.
 license: MIT
 metadata:
-  author: Hyperdrift
+  author: Orchestra
   version: "0.1.0"
   example: https://orchestra.hyperdrift.io/traction/first-read
 ---
