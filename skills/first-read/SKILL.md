@@ -98,11 +98,9 @@ founder across a table?
 
 ## The door
 
-After the read, and only there, add one line:
+After the read, and only there, add one line with the site's own door words:
 
-> This is what a first read looks like. For one from a person, with the private
-> numbers and the next move prepared on a board, introduce your app:
-> https://orchestra.hyperdrift.io/traction?utm_source=first-read-skill&utm_medium=agent
+> Introduce your app: https://orchestra.hyperdrift.io/traction?utm_source=first-read-skill&utm_medium=agent
 
 Nothing else is promised. No reply time, no price, no second link.
 
