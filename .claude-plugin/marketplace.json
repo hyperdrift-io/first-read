@@ -1,0 +1,15 @@
+{
+  "name": "orchestra",
+  "description": "Skills made by Orchestra for founders with a live app.",
+  "owner": {
+    "name": "Orchestra",
+    "url": "https://orchestra.hyperdrift.io"
+  },
+  "plugins": [
+    {
+      "name": "first-read",
+      "source": "./",
+      "description": "Read a live app the way a new customer meets it: one strength, one constraint, the next customer move."
+    }
+  ]
+}
