@@ -1,71 +1,70 @@
-# First read: material for the README
+# First read
 
-Not the public README. Yann writes the public words from this sheet; the facts
-below are verified as of 22 October 2026. Replace this file with the README
-before the repository goes public.
+**Give your agent a URL. Get back how your app reads to a stranger.**
 
-## What the skill does (facts)
+You know your product too well to see it cold. A new customer lands on the
+homepage, gives it five seconds, and either finds the way in or leaves. A first
+read is that walk, written down: one strength you can rely on, one constraint in
+the way, and one move to make this week with people rather than with the
+product. Every finding carries its evidence, and the read says what it could
+not see.
 
-- Takes one URL. Optionally who the app is for and what the founder wants next.
-- Reads public pages only, the way a new visitor meets them, at laptop width and
-  at phone width (390 px). Notes how far down the first action sits.
-- Looks through six lenses: the promise, the path to value, the proof, being
-  found, measurement, reliability.
-- Returns one strength, one constraint with the smallest change that removes it,
-  one customer move for the week with a success count and a way to read a miss,
-  and what the read could not see. Every finding carries its evidence: page,
-  quote, measurement.
-- Dates the read. Says what was private and what a next read could do with it.
-- Ends with one door: "Introduce your app" and the Traction link, tagged
-  `utm_source=first-read-skill&utm_medium=agent`. No reply time, no price, no
-  second link.
+It is the method we use before working with a founder. Here it is as an
+[Agent Skill](https://agentskills.io), so your own agent can run it on your app
+today.
 
-## What it never does
+## What you get
 
-- Sign in, submit a form, create an account, run a trial.
-- Touch analytics. State a number it did not see.
+```
+App: https://yourapp.example
+Read on: 22 October 2026
+Read from: public pages only, as a new visitor meets them, laptop and phone
 
-## Origin
+Strength        one thing a stranger can check, and why it matters
+Constraint      the one thing in the way, and the smallest change that removes it
+Next customer move
+                one move this week, the count that shows it worked,
+                how to read a miss, and how to measure it
+What this read could not see
+```
 
-- It is the method Hyperdrift runs before working with a founder.
-- It was run on Orchestra's own site first, on 6 October 2026, before being
-  offered to anyone: https://orchestra.hyperdrift.io/traction/first-read
-- Why it had to exist: Yann's to say.
+A published example, run on our own site first:
+[orchestra.hyperdrift.io/traction/first-read](https://orchestra.hyperdrift.io/traction/first-read).
 
-## Install (verified paths)
+## Real output
+
+[GreenLife, 22 October 2026](examples/greenlife-2026-10-22.md): run in Codex
+from a folder holding nothing but the skill, the model's words unedited. It
+found a notification panel covering the first nudge on a phone, measured where
+the reading button sits, and proposed a five-person test with a success count.
+
+## Install
+
+The skill lives in `skills/first-read/`. Copy that folder where your agent reads
+skills:
 
 | Client | Folder |
 |---|---|
-| Claude Code | `.claude/skills/first-read/` in a project, or `~/.claude/skills/` |
-| Codex | `.agents/skills/first-read/` in a project, or `~/.codex/skills/` |
-| Agent Plugins clients | load the repository folder as a plugin (`plugin.json` at the root) |
+| Claude Code | `.claude/skills/first-read/` in your project, or `~/.claude/skills/` |
+| Codex | `.agents/skills/first-read/` in your project, or `~/.codex/skills/` |
+| Any client that supports [Agent Plugins](https://agent-plugins.org) | Load this repository's folder as a plugin |
 
-Prompt that works: `Use the first-read skill on https://yourapp.example`
+Then ask:
 
-## Real output (facts from the run)
+```
+Use the first-read skill on https://yourapp.example
+```
 
-- Run in Codex on 22 October 2026 from a folder holding nothing but the skill.
-- App: GreenLife, a Hyperdrift app. 334 words. The model's words, unedited:
-  [examples/greenlife-2026-10-22.md](examples/greenlife-2026-10-22.md)
-- Findings new to us: a floating "Turn on notifications" panel covers part of
-  the first nudge at 390 px; the reading button sits 1,025 px down on an 844 px
-  screen (878 px on the laptop).
-- Proposed move: five people who want a simpler daily life open it on their
-  phones; success when at least three of five try a nudge and ask for another.
+## What it never does
 
-## Links and metadata
+It reads public pages only. It never signs in, never submits a form, never
+creates an account, never states a number it did not see. Your analytics stay
+yours; the read tells you what a next read could do with them.
 
-- Published example: https://orchestra.hyperdrift.io/traction/first-read
-- Door: https://orchestra.hyperdrift.io/traction?utm_source=first-read-skill&utm_medium=agent
-- Agent Skills spec: https://agentskills.io · Agent Plugins spec: https://agent-plugins.org
-- Licence: MIT. Author: Hyperdrift, https://hyperdrift.io
-- GitHub repository description, 350 characters at most: currently a factual
-  placeholder, to rewrite with the README.
-- `plugin.json` description, shown by plugin clients: currently a factual
-  one-liner, to confirm or rewrite.
+## The door
 
-## Shape of the public README, if useful
+The read ends with one line: introduce your app, and a link to Traction, where
+a person reads it with the private numbers and prepares the next move on a
+board. That is the only thing it asks.
 
-Bold one-liner · the moment a founder recognises · what you get (the output
-block) · install · what it never does · real output · the door · licence line.
-No length limit. Standup's README is the house precedent for shape only.
+MIT. By [Hyperdrift](https://hyperdrift.io).
