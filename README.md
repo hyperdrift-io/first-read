@@ -1,53 +1,37 @@
 # First read
 
-**Give your agent a URL. Get back how your app reads to a stranger.**
+First read is an Agent Skill. Give your agent the link to your app. It reads it the way a new customer meets it: public pages only, laptop and phone. Five seconds on the homepage, then the path to the first useful result.
 
-You know your product too well to see it cold. A new customer lands on the
-homepage, gives it five seconds, and either finds the way in or leaves. A first
-read is that walk, written down: one strength you can rely on, one constraint in
-the way, and one move to make this week with people rather than with the
-product. Every finding carries its evidence, and the read says what it could
-not see.
+You get back:
 
-It is the method Orchestra uses before working with a founder. Here it is as an
-[Agent Skill](https://agentskills.io), so your own agent can run it on your app
-today.
+- one strength you can rely on
+- one constraint in the way, and the smallest change that removes it
+- one move to make this week, with people, not with the product, and the count that shows it worked
+- what the read could not see
 
-## What you get
+Every finding carries its evidence: the page, the quote, the measurement. It states no number it did not see.
 
-```
-App: https://yourapp.example
-Read on: 22 October 2026
-Read from: public pages only, as a new visitor meets them, laptop and phone
+## The first run
 
-Strength        one thing a stranger can check, and why it matters
-Constraint      the one thing in the way, and the smallest change that removes it
-Next customer move
-                one move this week, the count that shows it worked,
-                how to read a miss, and how to measure it
-What this read could not see
-```
+GreenLife, 22 October 2026, run in Codex, the model's words unedited: [examples/greenlife-2026-10-22.md](examples/greenlife-2026-10-22.md)
 
-A published example, run on our own site first:
-[orchestra.hyperdrift.io/traction/first-read](https://orchestra.hyperdrift.io/traction/first-read).
+It found a notification panel covering the first nudge on a phone. It measured the reading button at 1,025 px down on an 844 px screen. We built GreenLife. We hadn't seen it.
 
-## Real output
-
-[GreenLife, 22 October 2026](examples/greenlife-2026-10-22.md): run in Codex
-from a folder holding nothing but the skill, the model's words unedited. It
-found a notification panel covering the first nudge on a phone, measured where
-the reading button sits, and proposed a five-person test with a success count.
+We ran the same read on our own site before offering it to anyone: [orchestra.hyperdrift.io/traction/first-read](https://orchestra.hyperdrift.io/traction/first-read)
 
 ## Install
 
-The skill lives in `skills/first-read/`. Copy that folder where your agent reads
-skills:
+```
+npx skills add hyperdrift-io/first-read
+```
+
+Or copy `skills/first-read/` where your agent reads skills:
 
 | Client | Folder |
 |---|---|
 | Claude Code | `.claude/skills/first-read/` in your project, or `~/.claude/skills/` |
 | Codex | `.agents/skills/first-read/` in your project, or `~/.codex/skills/` |
-| Any client that supports [Agent Plugins](https://agent-plugins.org) | Load this repository's folder as a plugin |
+| Any client that supports [Agent Plugins](https://agent-plugins.org) | load this repository's folder as a plugin |
 
 Then ask:
 
@@ -57,14 +41,12 @@ Use the first-read skill on https://yourapp.example
 
 ## What it never does
 
-It reads public pages only. It never signs in, never submits a form, never
-creates an account, never states a number it did not see. Your analytics stay
-yours; the read tells you what a next read could do with them.
+No sign-in, no forms, no account, no analytics. Your numbers stay yours. The read says what a next read could do with them.
 
-## The door
+## Why
 
-The read ends with one line: introduce your app, and a link to Traction, where
-a person reads it with the private numbers and prepares the next move on a
-board. That is the only thing it asks.
+A founder knows their product too well to see it cold. This is the read we give a founder before we work together. Now your agent can give it to you.
+
+Want one from a person, with your private numbers and the next move prepared on a board? Introduce your app: [orchestra.hyperdrift.io/traction](https://orchestra.hyperdrift.io/traction?utm_source=first-read-skill&utm_medium=readme)
 
 MIT. Made by [Orchestra](https://orchestra.hyperdrift.io).
