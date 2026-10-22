@@ -1,6 +1,6 @@
 # First read
 
-First read is an Agent Skill. Give your agent the link to your app and it reads it the way a new customer meets it: public pages only, laptop and phone, five seconds on the homepage and then the path to the first useful result.
+First read is an Agent Skill. Give your agent the link to your app. It reads it the way a new customer meets it: public pages only, laptop and phone. Five seconds on the homepage, then the path to the first useful result.
 
 You get back:
 
@@ -15,7 +15,7 @@ Every finding carries its evidence: the page, the quote, the measurement. It sta
 
 GreenLife, 22 October 2026, run in Codex, the model's words unedited: [examples/greenlife-2026-10-22.md](examples/greenlife-2026-10-22.md)
 
-It found a notification panel covering the first nudge on a phone and measured the reading button at 1,025 px down on an 844 px screen. We built GreenLife. We hadn't seen it.
+It found a notification panel covering the first nudge on a phone. It measured the reading button at 1,025 px down on an 844 px screen. We built GreenLife. We hadn't seen it.
 
 We ran the same read on our own site before offering it to anyone: [orchestra.hyperdrift.io/traction/first-read](https://orchestra.hyperdrift.io/traction/first-read)
 
@@ -47,6 +47,6 @@ No sign-in, no forms, no account, no analytics. Your numbers stay yours. The rea
 
 A founder knows their product too well to see it cold. This is the read we give a founder before we work together. Now your agent can give it to you.
 
-If you want one from a person, with your private numbers and the next move prepared on a board, introduce your app: [orchestra.hyperdrift.io/traction](https://orchestra.hyperdrift.io/traction?utm_source=first-read-skill&utm_medium=readme)
+Want one from a person, with your private numbers and the next move prepared on a board? Introduce your app: [orchestra.hyperdrift.io/traction](https://orchestra.hyperdrift.io/traction?utm_source=first-read-skill&utm_medium=readme)
 
 MIT. Made by [Orchestra](https://orchestra.hyperdrift.io).
